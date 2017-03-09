@@ -7,7 +7,8 @@ export class CdfTweetModel
 	User: CdfTweetUserModel;
 	MediaUrl: string;
 	HashTags: string[] = [];
-	CreatedAt : string;
+	CreatedAt: string;
+	TimeStamp: Date;
 
 	constructor(rawJson: any)
 	{
