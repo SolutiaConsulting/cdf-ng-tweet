@@ -128,8 +128,12 @@ CDF-NG-TWEET containes the following components:
 The Twitter widget is responsible for rendering a tweet.  This component relies upon a connection to Twitter to render the tweet.  If the connection is lost, or is not available, then the component simply renders the Tweet's text and timestamp.  Otherwise, if a connection exists, the component uses Twitter's JavaScript widget to render the tweet.
 
 
+Tweet rendered by Twitter:
 
 ![][cdf-ng-tweet-url]
+
+Tweet rendered when Twitter not loaded/available:
+
 ![][cdf-ng-tweet-no-connection-url]
 
 
